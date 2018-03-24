@@ -212,8 +212,17 @@ textarea {
 
 @media only screen and (max-width: 640px) {
 
+  #content_wrapper {
+    padding: 0;
+    margin: 0 auto;
+    width: 600px;
+    clear: both;
+    overflow: auto;
+     /* sticky footer */
+    flex: 1 0 auto;
+  }
   #sidebar {
     clear: both;
     float: left;
   }
-};
+}
