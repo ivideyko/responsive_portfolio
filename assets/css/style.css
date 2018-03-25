@@ -212,17 +212,56 @@ textarea {
 
 @media only screen and (max-width: 640px) {
 
+  #nav_container {
+    width: 580px;
+    margin: 0 auto;
+    overflow: auto;  
+  }
+  #nav {
+    float: left;
+    padding: 20px;
+    font-size: 22px;  
+    color: #cccccc;
+  }
+  #content {
+    padding: 35px 35px 30px 45px;
+    width: 500px;  
+    float: left;
+    background: #fff;
+    border: 1px solid #dddddd;
+  }
   #content_wrapper {
     padding: 0;
     margin: 0 auto;
-    width: 600px;
+    width: 560px;
     clear: both;
     overflow: auto;
      /* sticky footer */
     flex: 1 0 auto;
   }
+
+  #left_col {
+    width: 50%;
+    float: left;
+    clear: both;
+  }
+  
+  #right_col {
+    width: 47%;
+    float: left;
+    clear: both;
+
+  }
+
   #sidebar {
+    width: 520px;
     clear: both;
     float: left;
+    overflow: auto;
+    margin-left: 0px;
+    margin-top: 20px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #dddddd;
   }
 }
